@@ -1,0 +1,423 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navigation{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+.logo{
+    height: 40px;
+    width: 11%;
+    background-color:lightcyan;
+    margin-left: 3%;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: Segoe UI ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.cntfre{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav{
+    height: 40px;
+    width: 15%;
+    background-color: aliceblue;
+    background-image: url(HOME-131994911289288683_32.png);
+    background-size: contain;
+    background-repeat: none;
+    background-position: center;
+    margin-right: 2%;
+    display: flex;
+    cursor: pointer;
+}
+.none{
+    height: 40px;
+    width:80%;
+    background-color: black;
+    background-position: center;
+}
+
+
+.menu{
+    height: 550px;
+    width: 500%;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: right;
+    display:none ;
+}
+.part>li{
+    list-style-type: none;
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(219, 4, 4);
+    font-size: 100%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 50px;
+}
+.nav:hover > .menu{
+   display: block;
+}
+.part>li:hover{
+     background-color: azure;
+}
+
+
+.banner{
+    height: 400px;
+    width: 100%;
+    background-image: url(https://wallpaperaccess.com/full/3605134.jpg);
+    background-repeat: none;
+    background-position: top;
+    background-size: cover;
+    margin-top: 10px;
+    display: flex;
+}
+.text{
+    padding-top: 110px;
+    font-size: 70px;
+    margin-left: 45%;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: inherit;
+    color: rgb(199, 5, 5);
+}
+.btn{
+    height: 30px;
+    width: 135px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 6px;
+    font-size: large;
+    font-family: 'Segoe UI';
+    background-color: rgba(37, 19, 19, 0.6);
+    background-position: center;
+    color: azure;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: brown;
+}
+
+
+.movies{
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(248, 248, 248);
+}
+.movies2{
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: rgba(15, 14, 14, 0.01);
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.card1{
+    height: 260px;
+    width: 190px;
+    background-image: url(https://mindreels.files.wordpress.com/2021/07/jc_payoff_engcan_digital-keyart_p2_v2_lg.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin: 20px;
+}
+.slide1{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+
+}
+.detail1{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 3%;
+}
+.btn1{
+    width: 34%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: large;
+    font-family: 'Segoe UI';
+    background-color: rgba(173, 0, 189, 0.6);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.btn1:hover{
+        background-color: rgb(143, 26, 26);
+}
+.slide1:hover{
+    height: 240px;
+    width: 100%;
+}
+
+.card2{
+    height: 260px;
+    width: 190px;
+    background-image: url(https://i.redd.it/920585pmvkj51.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin: 20px;
+}
+.slide2{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+
+}
+.detail2{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 3%;
+}
+.btn2{
+    width: 34%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: large;
+    font-family: 'Segoe UI';
+    background-color: rgba(173, 0, 189, 0.6);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.btn2:hover{
+        background-color: rgb(143, 26, 26);
+}
+.slide2:hover{
+    height: 240px;
+    width: 100%;
+}
+
+.card3{
+    height: 260px;
+    width: 190px;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSxj0M5vbvyeQ8kxcUoRdHMyIjtsQ410YILzsggthfw7GRryQXP);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin: 20px;
+}
+.slide3{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+
+}
+.detail3{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 3%;
+}
+.btn3{
+    width: 34%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: large;
+    font-family: 'Segoe UI';
+    background-color: rgba(173, 0, 189, 0.6);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.btn3:hover{
+        background-color: rgb(143, 26, 26);
+}
+.slide3:hover{
+    height: 240px;
+    width: 100%;
+}
+
+.card4{
+    height: 260px;
+    width: 190px;
+    background-image: url(https://i.pinimg.com/474x/77/e2/ef/77e2efc2c91a4f75688c3be846b4c11a.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin: 20px;
+}
+.slide4{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+}
+.detail4{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 3%;
+}
+.btn4{
+    width: 34%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: large;
+    font-family: 'Segoe UI';
+    background-color: rgba(173, 0, 189, 0.6);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.btn4:hover{
+        background-color: rgb(143, 26, 26);
+}
+.slide4:hover{
+    height: 240px;
+    width: 100%;
+}
+
+.card5{
+    height: 260px;
+    width: 190px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHQnocdtiG6oL78jyz8aadz_1WkGBRfRQIBB6nR1KxsXnxfn_u);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin: 20px;
+}
+.slide5{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+}
+.detail5{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 3%;
+}
+.btn5{
+    width: 34%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: large;
+    font-family: 'Segoe UI';
+    background-color: rgba(173, 0, 189, 0.6);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.btn5:hover{
+        background-color: rgb(143, 26, 26);
+}
+.slide5:hover{
+    height: 240px;
+    width: 100%;
+}
+
+.card6{
+    height: 260px;
+    width: 190px;
+    background-image: url(https://lumiere-a.akamaihd.net/v1/images/p_moana_20530_214883e3.jpeg?region=0%2C0%2C540%2C810);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    margin: 20px;
+}
+.slide6{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+}
+.detail6{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    margin-left: 3%;
+}
+.btn6{
+    width: 34%;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: large;
+    font-family: 'Segoe UI';
+    background-color: rgba(173, 0, 189, 0.6);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.btn6:hover{
+        background-color: rgb(143, 26, 26);
+}
+.slide6:hover{
+    height: 240px;
+    width: 100%;
+}
+
+
+.head{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(250, 249, 249);
+    margin-top: 10px;
+}
+.image{
+    height: 260px;
+    width: 190px;
+    background-color: rgb(179, 177, 177);
+    background-image: url(https://globalnews.ca/wp-content/uploads/2018/02/gettyimages-867633016.jpg?quality=85&strip=all);
+    background-size: cover;
+    background-position: 40%;
+    display: flex;
+    border-color: black;
+    align-items: flex-end;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.about{
+    padding-top: 4px;
+    padding-bottom: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(248, 248, 248);
+    overflow-block: hidden;
+    font-size: large;
+    font-family: serif;
+}
