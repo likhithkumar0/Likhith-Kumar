@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation */
+
+.navg{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(4, 4, 41);
+}
+.cnt{
+    height: 45px;
+    width: 90%;
+    background-color: rgb(4, 4, 41);
+    margin: 0 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.log{
+    height: 45px;
+    width: 10%;
+    background-color: rgb(207, 207, 224);
+    font-size: large;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menu{
+    height: 45px;
+    width: 60%;
+    background-color: rgb(4, 4, 39);  
+    list-style-type: none;
+    display: flex;
+}
+.mtxt{
+    height: 45px;
+    width: 25%;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    margin-left: 3px;
+    color: aliceblue;
+    background-color: rgb(1, 1, 146);
+}
+.mtxt:hover{
+     background-color: rgb(4, 4, 41);
+     transition: 0.7s;
+     cursor: pointer;
+}
+
+/* Banner */
+
+.bnr{
+    width: 100%;
+    height: 450px;
+    background-image: url(https://www.snapcymru.org/wp-content/uploads/2021/01/online-shopping-ecommerce-ss-1920.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+.dsp{
+    height: 160px;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 16%;
+    border-radius: 9px;
+}
+.hd{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 80px;
+    font-weight: bolder;
+    color: rgb(255, 0, 0);
+}
+.detl{
+    font-size: medium;
+    font-family:  monospace;
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+}
+
+/* Shop */
+
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+.full{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    background-color: rgb(235, 235, 235);
+}
+.cntn{
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(238, 238, 238);
+}
+
+/* card */
+.card1{
+    height: 300px;
+    width: 199px;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    margin: 15px;
+    overflow: hidden;
+    border-color: black;
+}
+.img1{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRt7Mt1CxaqFbHGqMt0xGua12cWzPUByk6fEWARXq24At0-TIUtYZs-KXrEZSs0WEQa9geuC2UyfjDFAPr1rpAwRKMalxiPK0pi5gcxWTVnFJ4i1lOu7Y6InA&usqp=CAE);
+    background-color: black;
+    transition: 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slid{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 244, 244);
+}
+.ctn{
+    font-size: small;
+    font-family:  monospace;
+    text-align: left;
+    font-weight: bold;
+}
+.img1:hover{
+    height: 100%;
+}
+.btn{
+    margin-left: 60%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    color: black;
+    width: 50px;
+    height: 20px;
+}
+
+.card2{
+    height: 300px;
+    width: 199px;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    margin: 15px;
+    overflow: hidden;
+    border-color: black;
+}
+.img2{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ5LmDhu4Gn9fwyYUfSGzJooB2LCIRI31xi5AWgqTc8pgWKR9BXOoBbbv2V3CtYAJjS-7XQPks-tfjRXng1NWvjT5tB5aBfGpjfjYR3loCA-xH51FZPq5BHag&usqp=CAE);
+    background-color: black;
+    transition: 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slid{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 244, 244);
+}
+.ctn{
+    font-size: small;
+    font-family:  monospace;
+    text-align: left;
+    font-weight: bold;
+}
+.img2:hover{
+    height: 100%;
+}
+.btn{
+    margin-left: 60%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    color: black;
+    width: 50px;
+    height: 20px;
+}
+
+.card3{
+    height: 300px;
+    width: 199px;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    margin: 15px;
+    overflow: hidden;
+    border-color: black;
+}
+.img3{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSgCG7minKv7KIOwTuHoyIwSP2nXIt86I45lPSupGMDA_T8gR0bwpVoox02-lwB7-2AfX1ybpVnSYYuxEquRCXSgexroAdL_xMqoS2mBVLdnOBfx-qS30qe&usqp=CAE);
+    background-color: black;
+    transition: 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slid{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 244, 244);
+}
+.ctn{
+    font-size: small;
+    font-family:  monospace;
+    text-align: left;
+    font-weight: bold;
+}
+.img3:hover{
+    height: 100%;
+}
+.btn{
+    margin-left: 60%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    color: black;
+    width: 50px;
+    height: 20px;
+}
+
+.card4{
+    height: 300px;
+    width: 199px;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    margin: 15px;
+    overflow: hidden;
+    border-color: black;
+}
+.img4{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTR_A93gNsYAT02wTrek_T69M20cQC626u4tjoOSePMe9_UUb3j0w85vfPz_AcRmtLhvkuyG8prD6VLoeljRiXnwsvk26kuIQHh_ebmA6GGMzPT6ktvIl1jmQ&usqp=CAc);
+    background-color: black;
+    transition: 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slid{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 244, 244);
+}
+.ctn{
+    font-size: small;
+    font-family:  monospace;
+    text-align: left;
+    font-weight: bold;
+}
+.img4:hover{
+    height: 100%;
+}
+.btn{
+    margin-left: 60%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    color: black;
+    width: 50px;
+    height: 20px;
+}
+
+.card5{
+    height: 300px;
+    width: 199px;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    margin: 15px;
+    overflow: hidden;
+    border-color: black;
+}
+.img5{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcThB9Ml9LvgPo33Pu58bbaMv9h-IO4UISdmQetl6iRtqJNa3D6DpxXgC_ty9buGk63Q01A2uNM6O0zxBHEb3hJsfSXsZnAfa4pLgiLcKsI&usqp=CAE);
+    background-color: black;
+    transition: 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slid{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 244, 244);
+}
+.ctn{
+    font-size: small;
+    font-family:  monospace;
+    text-align: left;
+    font-weight: bold;
+}
+.img5:hover{
+    height: 100%;
+}
+.btn{
+    margin-left: 60%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    color: black;
+    width: 50px;
+    height: 20px;
+}
+
+.card6{
+    height: 300px;
+    width: 199px;
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    margin: 5px;
+    overflow: hidden;
+    border-color: black;
+}
+.img6{
+    height: 200px;
+    width: 100%;
+    background-image: url(https://cdn.shopify.com/s/files/1/0503/7303/4147/products/KP-3032_2_900x1155_crop_center@2x.jpg?v=1624101025);
+    background-color: black;
+    transition: 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slid{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 244, 244);
+}
+.ctn{
+    font-size: small;
+    font-family:  monospace;
+    text-align: left;
+    font-weight: bold;
+}
+.img6:hover{
+    height: 100%;
+}
+.btn{
+    margin-left: 60%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 4px;
+    color: black;
+    width: 50px;
+    height: 20px;
+}
+
+.abt{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    background-color: rgb(235, 235, 235);
+    /* display: flex; */
+    justify-content: center;
+}
+.pst{
+    height: 190px;
+    width: 50%;
+    background-color: rgba(0, 0, 255, 0.2);
+    display: flex;
+    margin-left: 25%;
+}
+.pimg{
+    height: 180px;
+    width: 40%;
+    background-color: aliceblue;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgssueDATTxEvUk4FYmI5qhFqdB7Xnx_UfCA&usqp=CAU);
+    margin: 4px;
+    justify-content: right;
+}
+.pcnt{
+    height: 180px;
+    width: 60%;
+    margin: 4px;
+}
+.bxt{
+    width: 30%;
+    height: 50px;
+    background-color: rgb(217, 217, 238);
+    margin-left: 35%;
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.ftr{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(4, 4, 41);
+    color: azure;
+    text-align: center;
+    line-height: center;
+}
+
+/* @mediaqueri */
+
+
+@media(max-width:375px){
+
+.log{
+    height: 45px;
+    width: 40%;
+    background-color: rgb(207, 207, 224);
+    font-size: large;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menu{
+    height: 45px;
+    width: 60%;
+    background-color: rgb(4, 4, 39);  
+    /* list-style-type: none; */
+    display: flex;
+}
+
+
+
+
+.pimg{
+    height: 180px;
+    width: 40%;
+    
+    margin: 4px;
+    justify-content: right;
+}
+
+}
