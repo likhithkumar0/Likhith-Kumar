@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Navigation */
+
+.navg{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(4, 4, 41);
+}
+.cnt{
+    height: 45px;
+    width: 90%;
+    background-color: rgb(4, 4, 41);
+    margin: 0 5% 0 5%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.log{
+    height: 45px;
+    width: 10%;
+    background-color: rgb(207, 207, 224);
+    font-size: large;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.menu{
+    height: 45px;
+    width: 60%;
+    background-color: rgb(4, 4, 39);  
+    list-style-type: none;
+    display: flex;
+}
+.mtxt{
+    height: 45px;
+    width: 25%;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    margin-left: 3px;
+    color: aliceblue;
+    background-color: rgb(1, 1, 146);
+}
+.mtxt:hover{
+     background-color: rgb(4, 4, 41);
+     transition: 0.7s;
+     cursor: pointer;
+}
+
+/* Banner */
+
+/* .head{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+.full{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+    margin: 1px;
+    background-color: blue;
+} */
